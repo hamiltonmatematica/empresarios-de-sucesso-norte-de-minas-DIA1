@@ -51,7 +51,7 @@ export const AGENDA_DAY_2: AgendaItem[] = [
     time: "10h30 – 11h30",
     title: "O Novo Jeito De Vender",
     speaker: "Fred Rocha",
-    description: "Muito Além da Inteligência Artificial. Como reduzir custos e otimizar processos."
+    description: "O novo jeito de vender muito Além da Inteligência Artificial - Um novo mundo dos negócios"
   },
   {
     time: "11h30 – 12h30",
