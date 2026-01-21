@@ -24,9 +24,6 @@ export const Speakers: React.FC = () => {
                     src={speaker.image}
                     alt={speaker.name}
                     className="w-full h-full object-cover transition-all duration-500"
-                    style={{
-                      transform: speaker.name === 'Fred Rocha' ? 'scale(2) translateX(-20%) translateY(30%)' : 'none'
-                    }}
                   />
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-1 group-hover:text-brand-neon transition-colors">{speaker.name}</h3>
