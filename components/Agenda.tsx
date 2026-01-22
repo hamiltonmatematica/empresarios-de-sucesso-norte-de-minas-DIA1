@@ -18,7 +18,7 @@ export const Agenda: React.FC = () => {
                     {/* Day 1 */}
                     <div>
                         <div className="flex items-center gap-4 mb-8">
-                            <h4 className="text-3xl font-bold text-brand-neon font-serif drop-shadow-[0_0_5px_rgba(0,209,255,0.5)]">DIA 01</h4>
+                            <h4 className="text-3xl font-bold text-yellow-400 font-serif drop-shadow-[0_0_5px_rgba(250,204,21,0.5)]">DIA 01</h4>
                             <div className="h-px flex-1 bg-brand-neon/30"></div>
                         </div>
                         <div className="relative border-l-2 border-brand-neon/20 ml-4 md:ml-0 space-y-8 md:space-y-12">
@@ -52,7 +52,7 @@ export const Agenda: React.FC = () => {
                     {/* Day 2 */}
                     <div>
                         <div className="flex items-center gap-4 mb-8">
-                            <h4 className="text-3xl font-bold text-brand-neon font-serif drop-shadow-[0_0_5px_rgba(0,209,255,0.5)]">DIA 02</h4>
+                            <h4 className="text-3xl font-bold text-yellow-400 font-serif drop-shadow-[0_0_5px_rgba(250,204,21,0.5)]">DIA 02</h4>
                             <div className="h-px flex-1 bg-brand-neon/30"></div>
                         </div>
                         <div className="relative border-l-2 border-brand-neon/20 ml-4 md:ml-0 space-y-8 md:space-y-12">
