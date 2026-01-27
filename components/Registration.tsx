@@ -115,6 +115,10 @@ export const Registration: React.FC = () => {
                   <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
                   <span>🎁 BÔNUS: Livro autografado</span>
                 </li>
+                <li className="flex items-start gap-2 text-white text-sm font-medium">
+                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
+                  <span>✨ 03 ingressos para as Confrarias Credinor na Venda do Fred no segundo semestre</span>
+                </li>
               </ul>
 
               <div className="mb-6">
