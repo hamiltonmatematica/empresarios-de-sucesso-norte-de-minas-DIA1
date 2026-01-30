@@ -23,18 +23,16 @@ export const Registration: React.FC = () => {
         <div className="bg-white/5 backdrop-blur-xl border border-brand-neon/30 rounded-3xl p-8 md:p-16 text-center max-w-4xl mx-auto shadow-[0_0_50px_rgba(0,209,255,0.1)]">
 
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-6">
-            Escolha sua <span className="text-brand-neon drop-shadow-[0_0_10px_rgba(0,209,255,0.5)]">Experiência</span>
+            Adquira sua <span className="text-brand-neon drop-shadow-[0_0_10px_rgba(0,209,255,0.5)]">Experiência</span>
           </h2>
 
-          <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-            Selecione o formato que melhor atende suas necessidades
-          </p>
+
 
           {/* Ticket Options Grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-10">
+          <div className="flex justify-center mb-10">
 
             {/* Day 1 Only Option */}
-            <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-6 hover:border-brand-neon/50 transition-all duration-300 group">
+            <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-6 hover:border-brand-neon/50 transition-all duration-300 group max-w-md w-full">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-bold rounded-full mb-3">
                   DIA 01
@@ -72,68 +70,6 @@ export const Registration: React.FC = () => {
                 className="w-full group-hover:shadow-[0_0_20px_rgba(0,209,255,0.3)]"
               >
                 GARANTIR DIA 01
-              </Button>
-            </div>
-
-            {/* Day 1+2 Option */}
-            <div className="bg-gradient-to-br from-brand-neon/10 to-brand-blue/10 border-2 border-brand-neon rounded-2xl p-6 relative overflow-hidden group shadow-[0_0_30px_rgba(0,209,255,0.15)]">
-              {/* Popular badge */}
-              <div className="absolute top-0 right-0 bg-brand-neon text-brand-dark font-bold text-xs px-4 py-1 rounded-bl-xl">
-                MAIS POPULAR
-              </div>
-
-              <div className="mb-4 mt-4">
-                <span className="inline-block px-3 py-1 bg-brand-neon/20 text-brand-neon text-xs font-bold rounded-full mb-3">
-                  DIA 01 + 02
-                </span>
-                <h3 className="text-2xl font-bold text-white mb-2">Imersão Completa</h3>
-                <p className="text-gray-300 text-sm mb-4">Experiência transformadora de 2 dias</p>
-              </div>
-
-              <ul className="space-y-3 mb-6 text-left">
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ TUDO do Dia 01 (Palestra + Autógrafos)</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ Imersão completa Dia 02</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ Almoço incluso</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ Happy Hour incluso</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ Mentorias online pós-evento</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>🎁 BÔNUS: Livro autografado</span>
-                </li>
-                <li className="flex items-start gap-2 text-white text-sm font-medium">
-                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
-                  <span>✨ 03 ingressos para as Confrarias Credinor na Venda do Fred no segundo semestre</span>
-                </li>
-              </ul>
-
-              <div className="mb-6">
-                <p className="text-3xl font-bold text-white mb-2">R$ 997,00</p>
-                <p className="text-brand-neon font-bold text-sm">
-                  ASSOCIADOS CREDINOR TEM DESCONTO! <br /> PROCURE SEU GERENTE
-                </p>
-              </div>
-
-
-              <Button
-                onClick={() => handleOpenModal('day1-2')}
-                className="w-full shadow-neon animate-pulse hover:animate-none"
-              >
-                GARANTIR DIA 01 + 02
               </Button>
             </div>
           </div>

@@ -7,7 +7,7 @@ import { Agenda } from './components/Agenda';
 import { Registration } from './components/Registration';
 import { Footer } from './components/Footer';
 
-import { Confrarias } from './components/Confrarias';
+
 
 import { Testimonials } from './components/Testimonials';
 
@@ -20,7 +20,7 @@ function App() {
         <Mission />
         <Speakers />
         <Agenda />
-        <Confrarias />
+
         <Testimonials />
         <Registration />
       </main>
