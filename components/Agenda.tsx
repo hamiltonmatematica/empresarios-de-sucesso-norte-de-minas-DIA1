@@ -9,7 +9,7 @@ export const Agenda: React.FC = () => {
                 <div className="text-center mb-16">
                     <h2 className="text-brand-neon font-bold tracking-widest uppercase text-3xl md:text-5xl mb-2 drop-shadow-[0_0_5px_rgba(0,209,255,0.5)]">Cronograma Oficial</h2>
                     <p className="text-lg md:text-xl text-gray-300 mt-4 max-w-3xl mx-auto">
-                        Noite de conteúdo para Gerentes, Vendedores, supervisores e todos da empresa .
+                        Noite de conteúdo para Gerentes, Vendedores, supervisores e todos da empresa
                     </p>
 
                 </div>
