@@ -100,23 +100,23 @@ export const AGENDA_DAY_2: AgendaItem[] = [
 export const CITIES: City[] = [
   { name: "Montes Claros", date: "09 de Fevereiro" },
   { name: "Brasília de Minas", date: "24 de Fevereiro" },
-  { name: "Rio Pardo de Minas", date: "02 de Março" },
+  { name: "Rio Pardo de Minas", date: "16 de Março" },
+  { name: "Taiobeiras", date: "18 de Março" },
   { name: "Bocaiuva", date: "Data a confirmar" },
   { name: "Coração de Jesus", date: "Data a confirmar" },
   { name: "Corinto", date: "Data a confirmar" },
-  { name: "Guanambi", date: "Data a confirmar" },
-  { name: "Taiobeiras", date: "Data a confirmar" }
+  { name: "Guanambi", date: "Data a confirmar" }
 ];
 
 export const CITIES_FULL: City[] = [
   { name: "Montes Claros", date: "09 de Fevereiro" },
   { name: "Brasília de Minas", date: "24 de Fevereiro" },
-  { name: "Rio Pardo de Minas", date: "02 de Março" },
+  { name: "Rio Pardo de Minas", date: "16 de Março" },
+  { name: "Taiobeiras", date: "18 de Março" },
   { name: "Bocaiuva", date: "Data a confirmar" },
   { name: "Coração de Jesus", date: "Data a confirmar" },
   { name: "Corinto", date: "Data a confirmar" },
-  { name: "Guanambi", date: "Data a confirmar" },
-  { name: "Taiobeiras", date: "Data a confirmar" }
+  { name: "Guanambi", date: "Data a confirmar" }
 ];
 
 export const BENEFITS: Benefit[] = [
