@@ -60,11 +60,6 @@ export const AGENDA_DAY_2: AgendaItem[] = [
     description: "Espaço de discussão prática e construção de insights facilitado pelos mentores."
   },
   {
-    time: "12h30 – 14h00",
-    title: "Almoço de Networking",
-    description: "Conexões estratégicas e troca de experiências (Almoço incluso)."
-  },
-  {
     time: "14h00 – 15h00",
     title: "Rodada de Negócios",
     description: "Sessão estruturada para geração de oportunidades reais entre os participantes."
@@ -90,16 +85,11 @@ export const AGENDA_DAY_2: AgendaItem[] = [
     time: "17h30",
     title: "Encerramento",
   },
-  {
-    time: "18h00 – 19h00",
-    title: "Happy Hour",
-    description: "Momento de descontração e networking com bebidas e petiscos inclusos."
-  }
 ];
 
 export const CITIES: City[] = [
   { name: "Montes Claros", date: "09 de Fevereiro" },
-  { name: "Brasília de Minas", date: "24 de Fevereiro" },
+  { name: "Brasília de Minas", date: "A definir" },
   { name: "Rio Pardo de Minas", date: "16 e 17 de Março" },
   { name: "Taiobeiras", date: "18 e 19 de Março" },
   { name: "Bocaiuva", date: "26 e 27 de Março" },
@@ -110,7 +100,7 @@ export const CITIES: City[] = [
 
 export const CITIES_FULL: City[] = [
   { name: "Montes Claros", date: "09 de Fevereiro" },
-  { name: "Brasília de Minas", date: "24 de Fevereiro" },
+  { name: "Brasília de Minas", date: "A definir" },
   { name: "Rio Pardo de Minas", date: "16 e 17 de Março" },
   { name: "Taiobeiras", date: "18 e 19 de Março" },
   { name: "Bocaiuva", date: "26 e 27 de Março" },
